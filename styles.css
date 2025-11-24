@@ -193,3 +193,59 @@ nav a:hover {
 .testing .btn:hover {
     background-color: #38a169;
 }
+
+.stories {
+    padding: 80px 0;
+    background-color: white;
+}
+
+.stories h2 {
+    color: #5A67D8;
+    font-size: 32px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.stories article {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+    align-items: flex-start;
+}
+
+.stories article:last-child {
+    margin-bottom: 0;
+}
+
+.stories img {
+    width: 200px;
+    height: 200px;
+    min-width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.article-body h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #1a202c;
+    line-height: 1.4;
+}
+
+.article-body p {
+    margin-bottom: 15px;
+    color: #4a5568;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.article-body a {
+    color: #5A67D8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.article-body a:hover {
+    text-decoration: underline;
+}
