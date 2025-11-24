@@ -1,4 +1,4 @@
-/* Add your JavaScript to this file */
+// Wait for the DOM to be fully loaded
 window.addEventListener('DOMContentLoaded', function() {
     // Get the form element
     const form = document.querySelector('.newsletter form');
