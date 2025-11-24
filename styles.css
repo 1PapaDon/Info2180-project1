@@ -16,3 +16,37 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+/* Header */
+header {
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6b7280;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #5A67D8;
+}
