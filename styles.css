@@ -144,3 +144,52 @@ nav a:hover {
     font-size: 16px;
     line-height: 1.6;
 }
+
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 80px 0;
+}
+
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.testing-desciption {
+    flex: 1;
+}
+
+.testing-desciption h2 {
+    font-size: 32px;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+.testing-desciption p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.cta {
+    flex-shrink: 0;
+}
+
+.testing .btn {
+    background-color: #48BB78;
+    color: white;
+    padding: 14px 35px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.testing .btn:hover {
+    background-color: #38a169;
+}
